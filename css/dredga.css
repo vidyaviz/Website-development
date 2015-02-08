@@ -1,0 +1,89 @@
+body {
+	margin-top: 150px; /* adjust this if the height of the menu bar changes */
+}
+
+.container{
+width:90%;
+    padding:5px;
+    margin-right:auto;
+    margin-left: auto
+;
+}
+.nav {
+	margin-top: 50px; /* this is a faux center fix for the nav options - adjust this if you wish to change the logo height or the font of the menu items */
+}
+
+.navbarlogo {
+    padding: 5px 5px 5px 5px;
+    margin-top:5px;
+
+}
+.navbar-header {
+    align-content:left;
+
+}
+
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size:20px;
+}
+
+
+footer {
+    padding: 10px 5px;
+}
+
+.dredganavbarbgcolor {
+
+    background-color:#f4f4f4;
+    border-color:#f4f4f4;
+}
+
+}
+.dredgaheader {
+    width:1420px;
+    height: 270px;
+    background-image:url('../images/dredgaheader.png');
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu' ' sans-serif';
+}
+p, div {
+    font-family: 'Ubuntu' ' sans-serif';
+}
+h1{
+    color:#b4b4b4;
+}
+
+h3{
+    color:#ea5c06;
+}
+.section-colored {
+   background-color:#f4f4f4
+}
+@media (min-width: 1200px) {
+.col-lg-12footer{
+    float:left;
+    width: 100%;
+    height:50px;
+    text-align:center;
+    color:#ea5c06;
+    margin-bottom:10px;
+    padding:15px;
+
+}
+    .navbar-inverse .navbar-nav > li > a {
+        color: #000000;
+    }
+    .navbar-inverse .navbar-nav > li > a:hover {
+        color: #ea5c06;
+    }
+.companynumber{
+    color:#ea5c06;
+    font-size:20px;
+    margin-top:13px;
+    margin-left:5px;
+    }
