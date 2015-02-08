@@ -1,2 +1,2 @@
 # dredga
-Website for dredga.com by Amith
+Website for dredga.com by Vidya
